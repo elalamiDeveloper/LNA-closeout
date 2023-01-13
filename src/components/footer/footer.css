@@ -1,37 +1,30 @@
 .footer-container {
   display: flex;
-
-  align-items: center;
+  align-items: flex-start;
+  justify-content: space-between;
   padding-top: 2.5rem;
+  border-top: 0.1rem solid #2a3061;
 }
 
-.information-container {
-  flex: 1;
-  text-align: center;
-}
-
-.footer-container .informations {
+.footer-container .text-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-content: center;
-  gap: 5rem;
-}
-
-.informations-title {
-  font-size: 2.4rem;
-  color: #2a3061;
-  margin-bottom: 2.5rem;
-}
-
-.information-item {
-  display: flex;
-  justify-content: flex-start;
   align-items: center;
   gap: 0.5rem;
-  font-size: 1.8rem;
 }
 
-.information-icon {
-  font-size: 2.6rem;
+.footer-container .text-container .title {
   color: #2a3061;
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+}
+
+.footer-container .text-container .sous-title {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer-container .text-container p {
+  font-size: 1.4rem;
 }

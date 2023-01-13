@@ -49,3 +49,9 @@
   line-height: 1.6;
   max-width: 80%;
 }
+
+@media screen and (max-width: 1270px) {
+  .hero-section .text {
+    min-width: 80%;
+  }
+}
