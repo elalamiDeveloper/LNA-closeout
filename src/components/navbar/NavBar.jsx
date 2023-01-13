@@ -5,7 +5,7 @@ import './navbar.css';
 import { MenuIcon } from '../../utils/icons';
 
 const NavBar = () => {
-  const [hideBar, setHideBar] = useState(true);
+  const [hideBar, setHideBar] = useState(false);
 
   const onHideNavbarHandler = () => setHideBar((lastValue) => !lastValue);
 
