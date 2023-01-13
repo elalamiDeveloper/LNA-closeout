@@ -1,0 +1,39 @@
+.tel-link-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.tel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 0.5rem;
+
+  padding: 1.5rem 3rem;
+
+  background: #394285;
+  color: #f6f6f6;
+
+  font-size: 1.6rem;
+}
+
+.tel-container:hover {
+  background: #2a3061;
+}
+
+.languages-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.languages-container button {
+  width: 5rem;
+  border: none;
+  outline: none;
+}

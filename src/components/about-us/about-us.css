@@ -1,0 +1,10 @@
+.about-us-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.about-us-section p {
+  font-size: 1.8rem;
+  line-height: 1.6;
+}

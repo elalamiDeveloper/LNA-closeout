@@ -1,0 +1,17 @@
+.box-text-container {
+  font-size: 2.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.box-text-container::after {
+  content: '';
+  position: absolute;
+  top: 60%;
+  left: 13%;
+  width: 10rem;
+  height: 0.5rem;
+  background: #394285;
+}
