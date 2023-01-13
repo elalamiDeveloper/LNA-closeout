@@ -1,65 +1,66 @@
 .client-section-container {
   background: #394285;
-}
-
-.client-section-container .container {
-  width: 100rem;
-  background: #f6f6f6;
-  display: grid;
-  grid-template-columns: 60rem 40rem;
-  align-items: center;
-  border-radius: 0.5rem;
-  overflow: hidden;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-
-.client-section-container .container .text {
-  font-size: 1.8rem;
-  line-height: 1.6;
-  padding: 5rem;
-  display: flex;
-  flex-direction: column;
-  gap: 2.5rem;
-}
-
-.client-section-container h2 {
   color: #f6f6f6;
 }
 
-.client-section-container .container .img-container {
-  height: 100%;
-  overflow: hidden;
+.client-section-container .title {
+  color: #f6f6f6;
 }
 
-.client-section-container .container .img-container img {
+.client-section-container .container {
+  min-height: 40rem;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 60% 40%;
+  border-radius: 1rem;
+  overflow: hidden;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background: #f6f6f6;
+  color: #333;
+}
+
+.client-section-container .container .text {
+  padding: 5rem;
+  font-size: 2rem;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
   height: 100%;
+}
+
+.img-container {
+  max-height: 50rem;
+}
+
+.img-container img {
+  height: 100%;
+}
+
+.client-section-container .container .text .client-section-btn {
+  font-size: 2.2rem;
+  margin-top: auto;
 }
 
 @media screen and (max-width: 900px) {
   .client-section-container .container {
     width: 80%;
     grid-template-columns: 1fr;
-    grid-template-rows: 50% 50%;
   }
 
   .client-section-container .container .text {
     font-size: 2rem;
     line-height: 1.6;
-    padding: 2rem 5rem;
-    display: flex;
-    flex-direction: column;
-    gap: 2.5rem;
     text-align: center;
   }
 
   .client-section-container .container .img-container {
-    height: 100%;
     order: -1;
   }
 
   .client-section-container .container .text .client-section-btn {
     margin-left: 0;
     border-radius: 0.5rem;
-    font-size: 2.2rem;
   }
 }

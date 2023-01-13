@@ -1,7 +1,8 @@
 import './box-text.css';
 
-const BoxText = ({ children }) => {
-  return <div className="box-text-container">{children}</div>;
+const BoxText = ({ children, className }) => {
+  const classes = `${className} box-text-container`;
+  return <div className={classes}>{children}</div>;
 };
 
 export default BoxText;

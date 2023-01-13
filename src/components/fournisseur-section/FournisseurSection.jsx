@@ -7,7 +7,7 @@ import { PrimaryButton } from '../../utils/components';
 const FournisseurSection = () => {
   return (
     <div className="fournisseur-section padding-section" id="fournisseur">
-      <PrimaryTitle>Vous êtes fournisseur ?</PrimaryTitle>
+      <PrimaryTitle className="title">Vous êtes fournisseur ?</PrimaryTitle>
       <div className="container">
         <div className="text">
           <p>
@@ -29,6 +29,7 @@ const FournisseurSection = () => {
             Contactez-nous
           </PrimaryButton>
         </div>
+
         <div className="img-container">
           <img src={fournisseurImg} alt="" />
         </div>

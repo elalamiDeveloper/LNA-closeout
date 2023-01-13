@@ -28,3 +28,21 @@
 .footer-container .text-container p {
   font-size: 1.4rem;
 }
+
+@media screen and (max-width: 800px) {
+  .footer-container .logo-container.hidden {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .footer-container {
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+  }
+
+  .footer-container .hidden {
+    display: none;
+  }
+}

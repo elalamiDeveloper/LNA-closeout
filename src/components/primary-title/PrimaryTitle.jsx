@@ -1,7 +1,8 @@
 import './primary-title.css';
 
-const PrimaryTitle = ({ children }) => {
-  return <h2 className="primary-title">{children}</h2>;
+const PrimaryTitle = ({ children, className }) => {
+  const classes = `primary-title ${className}`;
+  return <h2 className={classes}>{children}</h2>;
 };
 
 export default PrimaryTitle;

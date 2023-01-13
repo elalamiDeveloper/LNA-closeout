@@ -1,64 +1,64 @@
 .fournisseur-section {
   background: #394285;
-}
-
-.fournisseur-section .container {
-  width: 120rem;
-  background: #f6f6f6;
-  display: grid;
-  grid-template-columns: 80rem 40rem;
-  align-items: center;
-  border-radius: 0.5rem;
-  overflow: hidden;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-
-.fournisseur-section .container .text {
-  font-size: 1.8rem;
-  line-height: 1.6;
-  padding: 5rem;
-  display: flex;
-  flex-direction: column;
-  gap: 2.5rem;
-}
-
-.fournisseur-section h2 {
   color: #f6f6f6;
 }
 
-.fournisseur-section .container .img-container {
+.fournisseur-section .title {
+  color: #f6f6f6;
+}
+
+.fournisseur-section .container {
+  min-height: 40rem;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 60% 40%;
+  border-radius: 1rem;
+  overflow: hidden;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background: #f6f6f6;
+  color: #333;
+}
+
+.fournisseur-section .container .text {
+  padding: 5rem;
+  font-size: 1.8rem;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.img-container {
   height: 100%;
 }
 
-.fournisseur-section .container .img-container img {
+.img-container img {
   height: 100%;
+}
+
+.fournisseur-section .container .text .fournisseur-section-btn {
+  font-size: 2.2rem;
 }
 
 @media screen and (max-width: 900px) {
   .fournisseur-section .container {
     width: 80%;
     grid-template-columns: 1fr;
-    grid-template-rows: 50% 50%;
   }
 
   .fournisseur-section .container .text {
     font-size: 2rem;
     line-height: 1.6;
-    padding: 2rem 5rem;
-    display: flex;
-    flex-direction: column;
-    gap: 2.5rem;
     text-align: center;
   }
 
   .fournisseur-section .container .img-container {
-    height: 100%;
     order: -1;
   }
 
   .fournisseur-section .container .text .fournisseur-section-btn {
     margin-left: 0;
     border-radius: 0.5rem;
-    font-size: 2.2rem;
   }
 }

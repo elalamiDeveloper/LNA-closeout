@@ -7,7 +7,7 @@ import { PrimaryButton } from '../../utils/components';
 const ClientSection = () => {
   return (
     <div className="client-section-container padding-section" id="client">
-      <PrimaryTitle>Vous êtes client ?</PrimaryTitle>
+      <PrimaryTitle className="title">Vous êtes client ?</PrimaryTitle>
       <div className="container">
         <div className="text">
           <p>
