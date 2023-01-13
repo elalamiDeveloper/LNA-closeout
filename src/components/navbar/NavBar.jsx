@@ -17,10 +17,9 @@ const NavBar = () => {
       <div className={`navbar-container ${hideBar ? 'hidden' : ''}`}>
         <a href="/#presentation">Qui sommes-nous ?</a>
         <a href="/#client">Vous êtes client ?</a>
-        <a href="/#fournisseur">Vous êtes fournisseur ?</a>
         <a href="/#activite">Notre activité</a>
-
-        <Link to="/contact">Contactez-nous</Link>
+        <a href="/#fournisseur">Vous êtes fournisseur ?</a>
+        <a href="/#contact">Contactez-nous</a>
       </div>
     </>
   );

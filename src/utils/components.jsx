@@ -14,6 +14,7 @@ import Activity from '../components/activity/Activity';
 import Footer from '../components/footer/Footer';
 import Realisation from '../components/realisation/Realisation';
 import ContactForm from '../components/contact-form/ContactForm';
+import Contact from '../components/contact/Contact';
 
 export {
   Header,
@@ -32,4 +33,5 @@ export {
   Activity,
   Realisation,
   ContactForm,
+  Contact,
 };

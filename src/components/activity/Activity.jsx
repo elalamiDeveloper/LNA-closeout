@@ -8,7 +8,7 @@ const Activity = () => {
       <PrimaryTitle>Notre activité</PrimaryTitle>
       <p>
         Nous achetons exclusivement des lots, des stocks de produits finis, afin
-        d’alimenter en permanence notre chaine de magasins discount. Fabricants,
+        d’alimenter en permanence nos chaines de magasins discount. Fabricants,
         producteurs et importateurs sont nos principaux fournisseurs.
       </p>
       <p>
@@ -21,12 +21,12 @@ const Activity = () => {
         variés :
       </p>
       <p>
-        Alimentaire - Vins - Boissons - Produits d’Hygiène - produits
-        d'entretien - Jeux / jouets - Puériculture - Papeterie Produits de la
-        maison - décoration - cadeaux - peinture - Maroquinerie - Bagagerie Mode
-        / Textile - Chaussures - Livres - Multimédia - Électroménager - produits
-        Hi-tech Jardinage, plantes, arbres - Bricolage, Revêtement de sol Art de
-        la table - Mobilier - Articles de sport et loisir - Linge de maison{' '}
+        Alimentaire - Boissons - Produits d’Hygiène - produits d'entretien -
+        Jeux / jouets - Puériculture - Papeterie Produits de la maison -
+        décoration - cadeaux - peinture - Maroquinerie - Bagagerie Mode /
+        Textile - Chaussures - Livres - Multimédia - Électroménager - produits
+        Hi-tech - Bricolage - Art de la table - Mobilier - Articles de sport et
+        loisir - Linge de maison
       </p>
       <p>
         Nous étudions chaque offre avec le plus grand intérêt afin de valoriser
@@ -37,10 +37,6 @@ const Activity = () => {
         La vente de ces stocks s’effectue dans un réseau de magasins soldeurs.
       </p>
       <p>- Pas de publicité</p>
-      <p>
-        Notre règlement s’effectue comptant. Nous sommes assurés auprès de
-        toutes les sociétés d’assurance-crédit européenne.
-      </p>
     </div>
   );
 };

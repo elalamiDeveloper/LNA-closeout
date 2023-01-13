@@ -9,12 +9,11 @@ import {
 
 const Contact = () => {
   return (
-    <div className="contact-container">
+    <div className="contact-container padding-section" id="contact">
       <Header />
       <div className="contact-text">
         <PrimaryTitle>Contactez-nous</PrimaryTitle>
         <ContactForm />
-        <Realisation />
       </div>
     </div>
   );

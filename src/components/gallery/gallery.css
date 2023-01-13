@@ -1,10 +1,17 @@
 .gallery-container.container {
+  padding: 5rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   border-radius: 0.5rem;
   overflow: hidden;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   margin-bottom: 9rem;
+}
+
+.gallery-container.container .flexy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .gallery-container * {

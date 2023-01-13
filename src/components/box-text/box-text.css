@@ -1,17 +1,24 @@
 .box-text-container {
-  font-size: 2.6rem;
+  font-size: 2.4rem;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
+  justify-self: flex-start;
+}
+
+.box-text-container span {
+  margin-left: 0.8rem;
+  font-weight: 700;
 }
 
 .box-text-container::after {
   content: '';
   position: absolute;
   top: 60%;
-  left: 13%;
+  left: 0%;
   width: 10rem;
   height: 0.5rem;
   background: #394285;
+  margin-top: 2rem;
 }

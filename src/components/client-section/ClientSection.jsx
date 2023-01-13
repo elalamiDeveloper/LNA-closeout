@@ -1,6 +1,6 @@
 import './client-section.css';
 
-import { galleryImg2 } from '../../utils/icons';
+import { clientImg } from '../../utils/icons';
 import { PrimaryTitle } from '../../utils/components';
 import { PrimaryButton } from '../../utils/components';
 
@@ -26,7 +26,7 @@ const ClientSection = () => {
           </PrimaryButton>
         </div>
         <div className="img-container">
-          <img src={galleryImg2} alt="" />
+          <img src={clientImg} alt="" />
         </div>
       </div>
     </div>

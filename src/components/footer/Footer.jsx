@@ -1,26 +1,24 @@
 import './footer.css';
 
 import { Logo } from '../../utils/components';
-import { CallIcon, HomeIcon } from '../../utils/icons';
 
 const Footer = () => {
   return (
     <div className="footer-container container">
       <Logo />
-
-      <div className="information-container">
-        <h3 className="informations-title">Informations Pratiques</h3>
-        <div className="informations">
-          <div className="information-item">
-            <CallIcon className="information-icon" />
-            <span>06.09.41.65.58</span>
-          </div>
-
-          <div className="information-item">
-            <HomeIcon className="information-icon" />
-            <span>77 Rue Aristide Briand 69800 Saint Priest</span>
-          </div>
-        </div>
+      <div className="text-container">
+        <h3>Contact:</h3>
+        <h4>Service achat : l.korssia@flashjouet.fr</h4>
+        <h4>Service clients : a.korssia@flashjouet.fr</h4>
+        <p>N°TVA FR63 51 74 10 627</p>
+        <p>RCS LYON 517 410 627 000 15</p>
+        <p>Capital:10.000€</p>
+      </div>
+      <div>
+        <h3>Bureaux & Show-Room</h3>
+        <h4>ADRESSE:</h4>
+        <strong>LNA CLOSEOUT</strong>
+        <p>77 Rue Aristide Briand69800 Saint-Priest</p>
       </div>
     </div>
   );

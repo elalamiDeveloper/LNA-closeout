@@ -7,6 +7,7 @@ import {
   FournisseurSection,
   Activity,
   Footer,
+  Contact,
   Realisation,
 } from '../utils/components';
 
@@ -17,12 +18,11 @@ const Home = () => {
       <Hero />
       <AboutUs />
       <Gallery />
-
       <ClientSection />
       <Activity />
       <FournisseurSection />
-      <Footer />
-      <Realisation />
+      <Contact />
+      <Footer /> <Realisation />
     </>
   );
 };
