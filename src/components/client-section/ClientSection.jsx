@@ -19,7 +19,7 @@ const ClientSection = () => {
           </p>
           <PrimaryButton
             type="submit"
-            onClick={() => (window.location.href = '/contact')}
+            onClick={() => (window.location.href = '#contact')}
             className="client-section-btn"
           >
             Contactez-nous

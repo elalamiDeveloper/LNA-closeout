@@ -23,7 +23,7 @@ const FournisseurSection = () => {
           </p>
           <PrimaryButton
             type="button"
-            onClick={() => (window.location.href = '/contact')}
+            onClick={() => (window.location.href = '#contact')}
             className="fournisseur-section-btn"
           >
             Contactez-nous
