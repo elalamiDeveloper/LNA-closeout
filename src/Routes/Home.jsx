@@ -22,7 +22,8 @@ const Home = () => {
       <Activity />
       <FournisseurSection />
       <Contact />
-      <Footer /> <Realisation />
+      <Footer />
+      <Realisation />
     </>
   );
 };
