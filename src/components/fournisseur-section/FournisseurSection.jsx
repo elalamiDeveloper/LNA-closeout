@@ -15,9 +15,7 @@ const FournisseurSection = () => {
             l’intégralité de vos produits en gros .
             <strong> LNA CLOSEOUT </strong> sera ravi de collaborer avec vous.
             Un formulaire de contact est à votre disposition pour nous joindre.
-            en dire un peu plus sur votre entreprise, ainsi que le type des
-            produits et la quantité que vous souhaitez vendre. Nous vous
-            donnerons une réponse dans un délai de 48 heures (jours ouvrés).
+            Une réponse sera faite dans un délai de 48 heures (jours ouvrés).
           </p>
           <PrimaryButton
             type="button"
