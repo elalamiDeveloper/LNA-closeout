@@ -11,11 +11,12 @@ const ClientSection = () => {
       <div className="container">
         <div className="text">
           <p>
-            Vous souhaitez acheter en gros volume pour votre magasin ou votre
-            boutique en ligne ? Avant de commencer notre collaboration, nous
-            vous invitons à remplir le formulaire de contact ci-dessous afin de
-            nous en dire plus sur vos besoins et vos attentes. Nous vous
-            donnerons une réponse dans les 48 heures (jours ouvrés).
+            vous cherchez du déstockage pour votre magasin ou votre boutique en
+            ligne ? Avant de commencer notre collaboration, nous vous invitons à
+            remplir le formulaire de contact ci-dessous afin de nous en dire
+            plus sur votre société et ce que vous recherchez. Nous vous
+            donnerons une réponse dans les 48 heures (jours ouvrés).votre
+            société et ce que vous cherchez
           </p>
           <PrimaryButton
             type="submit"

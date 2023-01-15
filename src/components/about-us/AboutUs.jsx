@@ -9,8 +9,7 @@ const AboutUs = () => {
     >
       <PrimaryTitle>A propos de nous</PrimaryTitle>
       <p>
-        Créée en 2009 à Lyon, dans le cœur du quartier des affaires à Lyon, la
-        société
+        Créée en 2009 à Lyon, la société
         <strong> LNA CLOSEOUT</strong>, est spécialisée dans le rachat de
         produits en déstockage.
       </p>
@@ -21,13 +20,12 @@ const AboutUs = () => {
       </p>
       <p>
         Partenaire de plusieurs fabricants, nous développant un service achat
-        adapté pour chaque pays tel que l’Allemagne, l'Italie, l’Autriche,
-        l’Espagne, la Pologne, etc.
+        adapté pour chaque pays tel que l’Allemagne, l'Italie, l’Espagne, etc.
       </p>
       <p>
         Notre centrale d’achat est devenue un partenaire idéal dans le domaine
-        du jouet. Notre distribution permet à de nombreux fabricant d'écouler
-        leurs stocks avec une grande fluidité et en toute discrétion.
+        du déstockage. Notre distribution permet à de nombreux fabricant
+        d'écouler leurs stocks avec une grande fluidité et en toute discrétion.
       </p>
       <p>
         Nous sommes présent dans plusieurs domaines d’activité tel que la

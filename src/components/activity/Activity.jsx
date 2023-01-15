@@ -7,9 +7,9 @@ const Activity = () => {
     <div className="about-us-section container padding-section" id="activite">
       <PrimaryTitle>Notre activité</PrimaryTitle>
       <p>
-        Nous achetons exclusivement des lots, des stocks de produits finis, afin
-        d’alimenter en permanence nos chaines de magasins discount. Fabricants,
-        producteurs et importateurs sont nos principaux fournisseurs.
+        Nous achetons exclusivement des lots et des stocks, afin d’alimenter en
+        permanence nos chaines de magasins discount. Fabricants, producteurs et
+        importateurs sont nos principaux fournisseurs.
       </p>
       <p>
         Nous achetons tout genre de stock : <br />
