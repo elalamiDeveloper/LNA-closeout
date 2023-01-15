@@ -14,8 +14,11 @@ const FournisseurSection = () => {
             Vous avez des fins de séries ou surstock et souhaitez vendre
             l’intégralité de vos produits en gros .
             <strong> LNA CLOSEOUT </strong> sera ravi de collaborer avec vous.
-            Un formulaire de contact est à votre disposition pour nous joindre.
-            Une réponse sera faite dans un délai de 48 heures (jours ouvrés).
+            <br />
+            Un formulaire de contact est à votre disposition pour nous joindre.{' '}
+            <br />
+            Une réponse sera faite dans un délai de 48 heures (jours ouvrés).{' '}
+            <br />
           </p>
           <PrimaryButton
             type="button"
