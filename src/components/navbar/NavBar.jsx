@@ -18,9 +18,7 @@ const NavBar = () => {
         <MenuIcon className="burger-menu-icon" />
       </div>
       <div className={`navbar-container ${hideBar ? 'hidden' : ''}`}>
-        <a href="/#presentation" onClick={onHideNavbarHandler}>
-          Qui sommes-nous ?
-        </a>
+        <a href="/#presentation">Qui sommes-nous ?</a>
         <a href="/#client">Vous êtes client ?</a>
         <a href="/#activite">Notre activité</a>
         <a href="/#fournisseur">Vous êtes fournisseur ?</a>
