@@ -12,11 +12,13 @@ const ClientSection = () => {
         <div className="text">
           <p>
             vous cherchez du déstockage pour votre magasin ou votre boutique en
-            ligne ? Avant de commencer notre collaboration, nous vous invitons à
-            remplir le formulaire de contact ci-dessous afin de nous en dire
-            plus sur votre société et ce que vous recherchez. Nous vous
-            donnerons une réponse dans les 48 heures (jours ouvrés).votre
-            société et ce que vous cherchez
+            ligne ?<strong> LNA CLOSEOUT </strong> sera ravi de collaborer avec
+            vous.
+            <br />
+            Un formulaire de contact est à votre disposition pour nous joindre.{' '}
+            <br />
+            Une réponse sera faite dans un délai de 48 heures (jours ouvrés).{' '}
+            <br />
           </p>
           <PrimaryButton
             type="submit"

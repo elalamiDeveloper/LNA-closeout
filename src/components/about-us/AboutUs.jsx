@@ -20,7 +20,8 @@ const AboutUs = () => {
       </p>
       <p>
         Partenaire de plusieurs fabricants, nous développant un service achat
-        adapté pour chaque pays tel que l’Allemagne, l'Italie, l’Espagne, etc.
+        adapté pour chaque pays tel que la France, l’Allemagne, l'Italie,
+        l’Espagne, etc.
       </p>
       <p>
         Notre centrale d’achat est devenue un partenaire idéal dans le domaine
