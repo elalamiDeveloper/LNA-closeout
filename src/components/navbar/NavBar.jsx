@@ -21,18 +21,10 @@ const NavBar = () => {
         <a href="/#presentation" onClick={onHideNavbarHandler}>
           Qui sommes-nous ?
         </a>
-        <a href="/#client" onClick={onHideNavbarHandler}>
-          Vous êtes client ?
-        </a>
-        <a href="/#activite" onClick={onHideNavbarHandler}>
-          Notre activité
-        </a>
-        <a href="/#fournisseur" onClick={onHideNavbarHandler}>
-          Vous êtes fournisseur ?
-        </a>
-        <a href="/#contact" onClick={onHideNavbarHandler}>
-          Contactez-nous
-        </a>
+        <a href="/#client">Vous êtes client ?</a>
+        <a href="/#activite">Notre activité</a>
+        <a href="/#fournisseur">Vous êtes fournisseur ?</a>
+        <a href="/#contact">Contactez-nous</a>
       </div>
     </>
   );
