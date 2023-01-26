@@ -8,7 +8,7 @@ const Hero = () => {
         <p>
           Déstockage, Trading, Distribution, Import-Export Jouets, maison,
           high-tech, bricolage, hygiène, petit-électroménager, cuisson,
-          bagagerie, art de la table , image & son , Linge de lit
+          bagagerie, art de la table , image & son , Linge de maison
         </p>
       </div>
     </div>

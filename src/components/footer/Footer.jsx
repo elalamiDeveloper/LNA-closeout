@@ -18,11 +18,13 @@ const Footer = () => {
       </div>
 
       <div className="text-container">
-        <h3 className="title hidden">Bureaux & Show-Room</h3>
-        <strong className="title">LNA CLOSEOUT</strong>
-        <h4 className="sous-title">ADRESSE:</h4>
+        <h3 className="title hidden">Siège social</h3>
 
-        <p>77 Rue Aristide Briand69800 Saint-Priest</p>
+        <p>90 Rte de grenoble 69800 Saint-Priest</p>
+
+        <h3 className="title hidden">Show-Room</h3>
+
+        <p>77 Rue Aristide Briand 69800 Saint-Priest</p>
       </div>
     </div>
   );

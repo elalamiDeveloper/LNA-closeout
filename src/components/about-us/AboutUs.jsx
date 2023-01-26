@@ -34,7 +34,7 @@ const AboutUs = () => {
       </p>
       <p>
         Fort de notre expérience, nous avons mis en place un réseau de magasins
-        discount, dans la France, et qui distribuent les stocks sans
+        discount, dans la France, qui distribuent les stocks sans
         court-circuiter le marché traditionnel.
       </p>
     </div>
