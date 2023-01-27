@@ -36,7 +36,7 @@ const Gallery = () => {
         <img src={galleryImg4} alt="" style={{ width: '300px' }} />
       </div>
       <BoxText className="gallery-text ">
-        <Trans i18nKey="description.part35">On vous répond en moins de</Trans>
+        <Trans i18nKey="description.part35">On vous répond sous moins de</Trans>
         <span> 48h </span>
       </BoxText>
 

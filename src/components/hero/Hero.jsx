@@ -14,7 +14,7 @@ const Hero = () => {
           </h2>
           <p>
             <Trans i18nKey="description.part7">
-              Déstockage, Trading, Distribution, Import-Export Jouets, maison,
+              Destockage, Trading, Distribution, Import-Export Jouets, maison,
               high-tech, bricolage, hygiène, petit-électroménager, cuisson,
               bagagerie, art de la table , image & son , Linge de maison
             </Trans>

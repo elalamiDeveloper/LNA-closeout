@@ -15,11 +15,9 @@ const Footer = () => {
         <Slide cascade direction={'up'} duration={200}>
           <h3 className="title">Contact:</h3>
           <h4 className="sous-title">
-            Service achat : l.korssia@flashjouet.fr
+            Service achat / client : constact@lnacloseout.fr
           </h4>
-          <h4 className="sous-title">
-            Service clients : a.korssia@flashjouet.fr
-          </h4>
+
           <p className="hidden">N°TVA FR63 51 74 10 627</p>
           <p className="hidden">RCS LYON 517 410 627 000 15</p>
           <p className="hidden">Capital:10.000€</p>
@@ -34,7 +32,7 @@ const Footer = () => {
 
           <p>90 Rte de grenoble 69800 Saint-Priest</p>
 
-          <h3 className="title hidden">Show-Room</h3>
+          <h3 className="title hidden">Show-Room sur rdv</h3>
 
           <p>77 Rue Aristide Briand 69800 Saint-Priest</p>
         </Slide>

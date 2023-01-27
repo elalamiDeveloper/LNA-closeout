@@ -18,8 +18,8 @@ const FournisseurSection = () => {
             <p>
               <Trans i18nKey="description.part25">
                 Vous avez des fins de séries ou surstock et souhaitez vendre
-                l’intégralité de vos produits en gros .
-                <strong> LNA CLOSEOUT </strong> sera ravi de collaborer avec
+                l’intégralité de vos produits en gros.
+                <strong> LNA CLOSEOUT </strong> sera ravie de collaborer avec
                 vous.
                 <br />
                 Un formulaire de contact est à votre disposition pour nous

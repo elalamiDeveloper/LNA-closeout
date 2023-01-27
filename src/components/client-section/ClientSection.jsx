@@ -17,8 +17,8 @@ const ClientSection = () => {
           <Slide>
             <p>
               <Trans i18nKey="description.part37">
-                vous cherchez du déstockage pour votre magasin ou votre boutique
-                en ligne ?<strong> LNA CLOSEOUT </strong> sera ravi de
+                vous recherchez du destockage pour votre magasin ou votre
+                boutique en ligne ?<strong> LNA CLOSEOUT </strong> sera ravie de
                 collaborer avec vous.
                 <br />
                 Un formulaire de contact est à votre disposition pour nous

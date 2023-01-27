@@ -21,7 +21,7 @@ const Activity = () => {
         </p>
         <p>
           <Trans i18nKey="description.part17">
-            Nous achetons tout genre de stock :
+            Nous achetons tout type de stock :
           </Trans>
           <br />
           <Trans i18nKey="description.part18">
@@ -30,25 +30,22 @@ const Activity = () => {
           </Trans>
         </p>
         <p>
-          {' '}
           <Trans i18nKey="description.part19">
             Nous rachetons de nombreux articles dans des secteurs d’activités
             très variés :
           </Trans>
         </p>
         <p>
-          {' '}
           <Trans i18nKey="description.part20">
-            Alimentaire - Boissons - Produits d’Hygiène - produits d'entretien -
-            Jeux / jouets - Puériculture - Papeterie Produits de la maison -
-            décoration - cadeaux - peinture - Maroquinerie - Bagagerie Mode /
-            Textile - Chaussures - Livres - Multimédia - Électroménager -
+            Jeux / jouets - Alimentaire - Boissons - Produits d’Hygiène -
+            produits d'entretien - Puériculture - Papeterie Produits de la
+            maison - décoration - cadeaux - peinture - Maroquinerie - Bagagerie
+            Mode / Textile - Chaussures - Livres - Multimédia - Électroménager -
             produits Hi-tech - Bricolage - Art de la table - Mobilier - Articles
             de sport et loisir - Linge de maison
           </Trans>
         </p>
         <p>
-          {' '}
           <Trans i18nKey="description.part21">
             Nous étudions chaque offre avec le plus grand intérêt afin de
             valoriser au mieux les produits et de vous donner le prix le plus
