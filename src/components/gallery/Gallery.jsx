@@ -15,7 +15,8 @@ const Gallery = () => {
   return (
     <div className="gallery-container container">
       <BoxText className="gallery-text">
-        <Trans i18nKey="description.part7">
+        {' '}
+        <Trans i18nKey="description.part34">
           Achat et enlèvement des marchandises dans la semaine
         </Trans>
       </BoxText>
@@ -35,11 +36,14 @@ const Gallery = () => {
         <img src={galleryImg4} alt="" style={{ width: '300px' }} />
       </div>
       <BoxText className="gallery-text ">
-        On vous répond en moins de <span> 48h </span>
+        <Trans i18nKey="description.part35">On vous répond en moins de</Trans>
+        <span> 48h </span>
       </BoxText>
 
       <BoxText className="gallery-text final">
-        Rachat de la totalité des stocks
+        <Trans i18nKey="description.part36">
+          Rachat de la totalité des stocks
+        </Trans>
       </BoxText>
       <img src={winwinImg} alt="" className=" flexy final" />
       <div className="flexy hidden-1 final">

@@ -1,5 +1,7 @@
 import './footer.css';
 
+import { Trans } from 'react-i18next';
+
 import { Zoom, Slide } from 'react-awesome-reveal';
 import { Logo } from '../../utils/components';
 
@@ -26,7 +28,9 @@ const Footer = () => {
 
       <div className="text-container">
         <Slide cascade direction={'up'} duration={200}>
-          <h3 className="title hidden">Siège social</h3>
+          <h3 className="title hidden">
+            <Trans i18nKey="description.part32">Siège social</Trans>
+          </h3>
 
           <p>90 Rte de grenoble 69800 Saint-Priest</p>
 

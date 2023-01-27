@@ -1,5 +1,6 @@
 import { v4 as uuidv4 } from 'uuid';
 import { JackInTheBox } from 'react-awesome-reveal';
+import { Trans } from 'react-i18next';
 
 import { useState } from 'react';
 import { addUser } from '../../utils/firebase/firebase';
@@ -46,7 +47,9 @@ const ContactForm = () => {
   return (
     <form className="contact-form container" onSubmit={onSubmitHandler}>
       <div className="input-item">
-        <label htmlFor="nom">Nom:</label>
+        <label htmlFor="nom">
+          <Trans i18nKey="description.part26">Nom</Trans>:
+        </label>
         <JackInTheBox>
           <input
             type="text"
@@ -74,7 +77,9 @@ const ContactForm = () => {
       </div>
 
       <div className="input-item">
-        <label htmlFor="tel">Téléphone:</label>
+        <label htmlFor="tel">
+          <Trans i18nKey="description.part27">Téléphone</Trans>:
+        </label>
         <JackInTheBox>
           <input
             type="tel"
@@ -95,9 +100,16 @@ const ContactForm = () => {
             required
             onChange={onChangeHandler}
           >
-            <option value="">-- Client ou Fournisseur --</option>
-            <option value="client">Client</option>
-            <option value="fournisseur">Fournisseur</option>
+            <option value="">
+              --
+              <Trans i18nKey="description.part28">Client ou Fournisseur</Trans>
+            </option>
+            <option value="client">
+              <Trans i18nKey="description.part29">Client</Trans>
+            </option>
+            <option value="fournisseur">
+              <Trans i18nKey="description.part30">Fournisseur</Trans>
+            </option>
           </select>
         </JackInTheBox>
       </div>
@@ -116,7 +128,7 @@ const ContactForm = () => {
       </div>
 
       <PrimaryButton className="form-btn" type="submit">
-        Envoyer
+        <Trans i18nKey="description.part31">Envoyer</Trans>
       </PrimaryButton>
     </form>
   );
