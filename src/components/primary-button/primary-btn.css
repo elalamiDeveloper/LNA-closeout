@@ -1,3 +1,17 @@
+.btn-container {
+  margin: auto 0 0 auto;
+  /* width: 100%; */
+}
+
+.btn-container.form-btn {
+  grid-column: 1/-1;
+  width: 100%;
+}
+
+.btn-container.form-btn * {
+  width: 100%;
+}
+
 .primary-button {
   padding: 1.5rem 3rem;
   background: #394285;
@@ -5,13 +19,13 @@
   border: 0.1rem solid #394285;
   outline: none;
   border-radius: 50px;
-  margin-left: auto;
 
   font-size: 2.2rem;
   cursor: pointer;
 }
 
 .primary-button:hover {
+  transform: translateY(10px) scale(1.05);
   color: #394285;
   border-color: #394285;
   background: #f6f6f6;

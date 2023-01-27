@@ -1,4 +1,5 @@
 import { v4 as uuidv4 } from 'uuid';
+import { JackInTheBox } from 'react-awesome-reveal';
 
 import { useState } from 'react';
 import { addUser } from '../../utils/firebase/firebase';
@@ -46,65 +47,75 @@ const ContactForm = () => {
     <form className="contact-form container" onSubmit={onSubmitHandler}>
       <div className="input-item">
         <label htmlFor="nom">Nom:</label>
-        <input
-          type="text"
-          id="nom"
-          name="nom"
-          value={nom}
-          required
-          onChange={onChangeHandler}
-        />
+        <JackInTheBox>
+          <input
+            type="text"
+            id="nom"
+            name="nom"
+            value={nom}
+            required
+            onChange={onChangeHandler}
+          />
+        </JackInTheBox>
       </div>
 
       <div className="input-item">
         <label htmlFor="email">E-mail:</label>
-        <input
-          type="email"
-          id="email"
-          name="email"
-          value={email}
-          required
-          onChange={onChangeHandler}
-        />
+        <JackInTheBox>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            value={email}
+            required
+            onChange={onChangeHandler}
+          />
+        </JackInTheBox>
       </div>
 
       <div className="input-item">
         <label htmlFor="tel">Téléphone:</label>
-        <input
-          type="tel"
-          id="tel"
-          name="tel"
-          value={tel}
-          required
-          onChange={onChangeHandler}
-        />
+        <JackInTheBox>
+          <input
+            type="tel"
+            id="tel"
+            name="tel"
+            value={tel}
+            required
+            onChange={onChangeHandler}
+          />
+        </JackInTheBox>
       </div>
 
       <div className="input-item">
-        <select
-          id="client-ou-fournisseur"
-          name="genre"
-          value={genre}
-          required
-          onChange={onChangeHandler}
-        >
-          <option value="">-- Client ou Fournisseur --</option>
-          <option value="client">Client</option>
-          <option value="fournisseur">Fournisseur</option>
-        </select>
+        <JackInTheBox className="select-container">
+          <select
+            id="client-ou-fournisseur"
+            value={genre}
+            required
+            onChange={onChangeHandler}
+          >
+            <option value="">-- Client ou Fournisseur --</option>
+            <option value="client">Client</option>
+            <option value="fournisseur">Fournisseur</option>
+          </select>
+        </JackInTheBox>
       </div>
 
       <div className="input-item message">
         <label htmlFor="message">Message</label>
-        <textarea
-          id="message"
-          name="message"
-          value={message}
-          required
-          onChange={onChangeHandler}
-        ></textarea>
+        <JackInTheBox>
+          <textarea
+            id="message"
+            name="message"
+            value={message}
+            required
+            onChange={onChangeHandler}
+          ></textarea>
+        </JackInTheBox>
       </div>
-      <PrimaryButton className="btn-form" type="submit">
+
+      <PrimaryButton className="form-btn" type="submit">
         Envoyer
       </PrimaryButton>
     </form>

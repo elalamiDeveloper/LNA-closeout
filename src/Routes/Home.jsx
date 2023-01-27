@@ -1,3 +1,5 @@
+import { useTranslation } from 'react-i18next';
+
 import {
   Header,
   Hero,
@@ -12,9 +14,11 @@ import {
 } from '../utils/components';
 
 const Home = () => {
+  const { i18n } = useTranslation();
+
   return (
     <>
-      <Header />
+      <Header i18n={i18n} />
       <Hero />
       <AboutUs />
       <Gallery />

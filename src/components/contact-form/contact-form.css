@@ -27,6 +27,7 @@
 .input-item input,
 .input-item select,
 .input-item textarea {
+  width: 100%;
   padding: 1rem;
   font-size: 1.6rem;
   outline: none;
@@ -34,7 +35,7 @@
   border-radius: 0.3rem;
 }
 
-.input-item select {
+.input-item .select-container {
   margin-top: auto;
 }
 
@@ -52,7 +53,6 @@
 
 .btn-form {
   grid-column: 1/-1;
-  width: 100%;
 }
 
 @media screen and (max-width: 600px) {

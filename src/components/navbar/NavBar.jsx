@@ -1,4 +1,6 @@
 import { useState, useEffect } from 'react';
+import { JackInTheBox } from 'react-awesome-reveal';
+import { Trans } from 'react-i18next';
 
 import './navbar.css';
 import { MenuIcon } from '../../utils/icons';
@@ -18,11 +20,31 @@ const NavBar = () => {
         <MenuIcon className="burger-menu-icon" />
       </div>
       <div className={`navbar-container ${hideBar ? 'hidden' : ''}`}>
-        <a href="/#presentation">Qui sommes-nous ?</a>
-        <a href="/#client">Vous êtes client ?</a>
-        <a href="/#activite">Notre activité</a>
-        <a href="/#fournisseur">Vous êtes fournisseur ?</a>
-        <a href="/#contact">Contactez-nous</a>
+        <JackInTheBox>
+          <a href="/#presentation">
+            <Trans i18nKey="description.part1">Qui sommes-nous ?</Trans>
+          </a>
+        </JackInTheBox>
+        <JackInTheBox>
+          <a href="/#client">
+            <Trans i18nKey="description.part2">Vous êtes client ?</Trans>
+          </a>
+        </JackInTheBox>
+        <JackInTheBox>
+          <a href="/#activite">
+            <Trans i18nKey="description.part3">Notre activité</Trans>
+          </a>
+        </JackInTheBox>
+        <JackInTheBox>
+          <a href="/#fournisseur">
+            <Trans i18nKey="description.part4">Vous êtes fournisseur ?</Trans>
+          </a>
+        </JackInTheBox>
+        <JackInTheBox>
+          <a href="/#contact">
+            <Trans i18nKey="description.part5">Contactez-nous</Trans>
+          </a>
+        </JackInTheBox>
       </div>
     </>
   );

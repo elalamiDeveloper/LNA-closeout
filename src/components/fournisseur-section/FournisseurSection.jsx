@@ -1,4 +1,5 @@
 import './fournisseur.section.css';
+import { Zoom, Slide } from 'react-awesome-reveal';
 
 import { fournisseurImg } from '../../utils/icons';
 import { PrimaryTitle } from '../../utils/components';
@@ -10,16 +11,18 @@ const FournisseurSection = () => {
       <PrimaryTitle className="title">Vous êtes fournisseur ?</PrimaryTitle>
       <div className="container">
         <div className="text">
-          <p>
-            Vous avez des fins de séries ou surstock et souhaitez vendre
-            l’intégralité de vos produits en gros .
-            <strong> LNA CLOSEOUT </strong> sera ravi de collaborer avec vous.
-            <br />
-            Un formulaire de contact est à votre disposition pour nous joindre.{' '}
-            <br />
-            Une réponse sera faite dans un délai de 48 heures (jours ouvrés).{' '}
-            <br />
-          </p>
+          <Slide>
+            <p>
+              Vous avez des fins de séries ou surstock et souhaitez vendre
+              l’intégralité de vos produits en gros .
+              <strong> LNA CLOSEOUT </strong> sera ravi de collaborer avec vous.
+              <br />
+              Un formulaire de contact est à votre disposition pour nous
+              joindre. <br />
+              Une réponse sera faite dans un délai de 48 heures (jours ouvrés).{' '}
+              <br />
+            </p>
+          </Slide>
           <PrimaryButton
             type="button"
             onClick={() => (window.location.href = '#contact')}
@@ -29,9 +32,9 @@ const FournisseurSection = () => {
           </PrimaryButton>
         </div>
 
-        <div className="img-container">
+        <Zoom className="img-container">
           <img src={fournisseurImg} alt="" />
-        </div>
+        </Zoom>
       </div>
     </div>
   );

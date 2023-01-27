@@ -1,4 +1,5 @@
 import './client-section.css';
+import { Zoom, Slide } from 'react-awesome-reveal';
 
 import { clientImg } from '../../utils/icons';
 import { PrimaryTitle } from '../../utils/components';
@@ -10,16 +11,18 @@ const ClientSection = () => {
       <PrimaryTitle className="title">Vous êtes client ?</PrimaryTitle>
       <div className="container">
         <div className="text">
-          <p>
-            vous cherchez du déstockage pour votre magasin ou votre boutique en
-            ligne ?<strong> LNA CLOSEOUT </strong> sera ravi de collaborer avec
-            vous.
-            <br />
-            Un formulaire de contact est à votre disposition pour nous joindre.{' '}
-            <br />
-            Une réponse sera faite dans un délai de 48 heures (jours ouvrés).{' '}
-            <br />
-          </p>
+          <Slide>
+            <p>
+              vous cherchez du déstockage pour votre magasin ou votre boutique
+              en ligne ?<strong> LNA CLOSEOUT </strong> sera ravi de collaborer
+              avec vous.
+              <br />
+              Un formulaire de contact est à votre disposition pour nous
+              joindre. <br />
+              Une réponse sera faite dans un délai de 48 heures (jours ouvrés).{' '}
+              <br />
+            </p>
+          </Slide>
           <PrimaryButton
             type="submit"
             onClick={() => (window.location.href = '#contact')}
@@ -28,9 +31,9 @@ const ClientSection = () => {
             Contactez-nous
           </PrimaryButton>
         </div>
-        <div className="img-container">
+        <Zoom className="img-container">
           <img src={clientImg} alt="" />
-        </div>
+        </Zoom>
       </div>
     </div>
   );
