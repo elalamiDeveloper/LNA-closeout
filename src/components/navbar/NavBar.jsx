@@ -13,35 +13,38 @@ const NavBar = () => {
   }, []);
 
   const onHideNavbarHandler = () => setHideBar((lastValue) => !lastValue);
-
+  const hideBarFN = () => {
+    if (window.innerWidth > 1270) return;
+    onHideNavbarHandler();
+  };
   return (
     <>
       <div className="burger-menu" onClick={onHideNavbarHandler}>
         <MenuIcon className="burger-menu-icon" />
       </div>
       <div className={`navbar-container ${hideBar ? 'hidden' : ''}`}>
-        <JackInTheBox>
-          <a href="/#presentation">
+        <JackInTheBox style={{ width: '100%' }}>
+          <a href="/#presentation" onClick={hideBarFN}>
             <Trans i18nKey="description.part1">Qui sommes-nous ?</Trans>
           </a>
         </JackInTheBox>
-        <JackInTheBox>
-          <a href="/#client">
+        <JackInTheBox style={{ width: '100%' }}>
+          <a href="/#client" onClick={hideBarFN}>
             <Trans i18nKey="description.part2">Vous êtes client ?</Trans>
           </a>
         </JackInTheBox>
-        <JackInTheBox>
-          <a href="/#activite">
+        <JackInTheBox style={{ width: '100%' }}>
+          <a href="/#activite" onClick={hideBarFN}>
             <Trans i18nKey="description.part3">Notre activité</Trans>
           </a>
         </JackInTheBox>
-        <JackInTheBox>
-          <a href="/#fournisseur">
+        <JackInTheBox style={{ width: '100%' }}>
+          <a href="/#fournisseur" onClick={hideBarFN}>
             <Trans i18nKey="description.part4">Vous êtes fournisseur ?</Trans>
           </a>
         </JackInTheBox>
-        <JackInTheBox>
-          <a href="/#contact">
+        <JackInTheBox style={{ width: '100%' }}>
+          <a href="/#contact" onClick={hideBarFN}>
             <Trans i18nKey="description.part5">Contactez-nous</Trans>
           </a>
         </JackInTheBox>
