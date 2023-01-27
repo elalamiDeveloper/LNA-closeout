@@ -29,12 +29,10 @@ const Footer = () => {
           <h3 className="title hidden">
             <Trans i18nKey="description.part32">Siège social</Trans>
           </h3>
-
           <p>90 Rte de grenoble 69800 Saint-Priest</p>
-
-          <h3 className="title hidden">Show-Room sur rdv</h3>
-
-          <p>77 Rue Aristide Briand 69800 Saint-Priest</p>
+          <h3 className="title hidden">Show-Room</h3>
+          <p>77 Rue Aristide Briand 69800 Saint-Priest</p> <br />
+          <p>sur rdv au 0667781640</p>
         </Slide>
       </div>
     </div>
