@@ -1,4 +1,6 @@
 import './gallery.css';
+import { Trans } from 'react-i18next';
+
 import {
   galleryImg1,
   galleryImg2,
@@ -13,7 +15,9 @@ const Gallery = () => {
   return (
     <div className="gallery-container container">
       <BoxText className="gallery-text">
-        Achat et enlèvement des marchandises dans la semaine
+        <Trans i18nKey="description.part7">
+          Achat et enlèvement des marchandises dans la semaine
+        </Trans>
       </BoxText>
       <div className="flexy">
         <img src={galleryImg1} alt="" style={{ width: '300px' }} />
