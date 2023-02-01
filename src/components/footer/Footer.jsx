@@ -15,7 +15,7 @@ const Footer = () => {
         <Slide cascade direction={'up'} duration={200}>
           <h3 className="title">Contact:</h3>
           <h4 className="sous-title">
-            Service achat / client : constact@lnacloseout.fr
+            Service achat / client : contact@lnacloseout.fr
           </h4>
 
           <p className="hidden">N°TVA FR63 51 74 10 627</p>
