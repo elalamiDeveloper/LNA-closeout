@@ -23,4 +23,14 @@ const addUser = async (contact) => {
   }
 };
 
-export { addUser };
+const addVisiter = async (visiter) => {
+  console.log(db);
+  const visiterDocRef = doc(db, 'visiters', visiter.id);
+  try {
+    await setDoc(visiterDocRef, visiter);
+  } catch (err) {
+    console.log('EROR');
+  }
+};
+
+export { addUser, addVisiter };
