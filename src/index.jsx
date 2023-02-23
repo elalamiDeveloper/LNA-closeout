@@ -6,7 +6,7 @@ import { BrowserRouter } from 'react-router-dom';
 import './utils/i18n';
 import ReactGA from 'react-ga';
 
-ReactGA.initialize('UA-258174985-1');
+ReactGA.initialize('UA-258132752-1');
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
